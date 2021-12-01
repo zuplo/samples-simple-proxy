@@ -1,0 +1,32 @@
+{
+  "routes": [
+    {
+      "label": "Posts With Users",
+      "path": "posts-with-users",
+      "handler": {
+        "export": "default",
+        "module": "$import(./modules/proxy)"
+      },
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "corsPolicy": "AnythingGoes",
+      "version": "v1",
+      "policies": {
+        "inbound": []
+      },
+      "key": "1e288f9f-7822-4a1b-9627-2e8ff7580cfb"
+    }
+  ],
+  "versions": [
+    {
+      "name": "none",
+      "pathPrefix": ""
+    },
+    {
+      "name": "v1",
+      "pathPrefix": "v1/"
+    }
+  ]
+}

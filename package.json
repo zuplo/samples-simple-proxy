@@ -1,0 +1,25 @@
+{
+  "name": "simple-proxy",
+  "version": "1.0.0",
+  "author": "",
+  "copyright": "",
+  "scripts": {
+    "dev": "zuplo dev",
+    "build": "zuplo build",
+    "test": "zuplo test",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@zuplo/core": "*",
+    "@zuplo/runtime": "*"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4"
+  },
+  "packageManager": "yarn@3.1.0",
+  "resolutions": {
+    "@zuplo/core": "portal:/Users/josh/dev/zuplo/core/packages/core",
+    "@zuplo/runtime": "portal:/Users/josh/dev/zuplo/core/packages/runtime",
+    "@zuplo/internal": "portal:/Users/josh/dev/zuplo/core/packages/internal"
+  }
+}
