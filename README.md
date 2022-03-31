@@ -5,4 +5,4 @@ See: [Proxy your first request](https://www.notion.so/zuplo/Proxy-your-first-req
 To clone this repo to your Zuplo account, just zup it!
 
 
-[![Foo](https://cdn.zuplo.com/www/Zupit_btn.svg)](http://portal.zuplo.com/clone?sourceRepoUrl=https://github.com/zuplo/samples-simple-proxy.git)
+[![Foo](https://cdn.zuplo.com/www/zupit.svg)](http://portal.zuplo.com/clone?sourceRepoUrl=https://github.com/zuplo/samples-simple-proxy.git)
